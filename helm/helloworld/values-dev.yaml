@@ -1,0 +1,9 @@
+deployment:
+  image: 9673483686/helloworld
+  tag: python
+  port: 80
+  mem: "12Mi"
+  cpu: "10m"
+  name: pratik
+  env: dev
+  label: app 
